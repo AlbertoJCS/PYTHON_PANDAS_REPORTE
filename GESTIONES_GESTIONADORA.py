@@ -4,7 +4,7 @@ from sqlalchemy import create_engine
 
 # Crear la URL de conexión para SQL Server
 connection_string = (
-    "mssql+pyodbc://respaldo:MO8uf3t3*2024@122.200.47.6/GestionadoraCobro"
+    "mssql+pyodbc://usuario:contraseña@servidor/BaseDatos"
     "?driver=ODBC+Driver+17+for+SQL+Server"
 )
 
